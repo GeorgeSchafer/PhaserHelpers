@@ -4,11 +4,8 @@ import { Config } from './Config.mjs'
 import { Scene } from './Scene.mjs'
 import { View } from './View.mjs'
 import { Player } from './Player.mjs'
-import {
-    Squad,
-    Role, 
-    SquadMember
-} from './TBStrategy/Squad.mjs'
+import { Position } from './Position.mjs'
+import { Typeface } from './Typeface.mjs'
 import {
     Frame,
     SquareFrame
@@ -25,9 +22,8 @@ export {
     Scene,
     View,
     Player,
-    Squad,
-    Role,
-    SquadMember,
+    Position,
+    Typeface,
     Frame,
     SquareFrame,
     Img,
